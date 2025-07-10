@@ -95,6 +95,7 @@ import { SerperIcon } from "@/icons/Serper";
 import { SerpSearchIcon } from "@/icons/SerpSearch";
 import { ShareIcon } from "@/icons/Share";
 import { Share2Icon } from "@/icons/Share2";
+import { SharePointIcon } from "@/icons/SharePoint";
 import { SlackIcon } from "@/icons/Slack";
 import { SpiderIcon } from "@/icons/Spider";
 import { Streamlit } from "@/icons/Streamlit";
@@ -114,6 +115,7 @@ import { YouTubeSvgIcon as YouTubeIcon } from "@/icons/Youtube";
 import { ZepMemoryIcon } from "@/icons/ZepMemory";
 import { JigsawStackIcon } from "./JigsawStack";
 import { WindsurfIcon } from "./Windsurf";
+import { Share } from "lucide-react";
 
 // Export the eagerly loaded icons map
 export const eagerIconsMapping = {
@@ -213,6 +215,7 @@ export const eagerIconsMapping = {
   Serper: SerperIcon,
   Share: ShareIcon,
   Share2: Share2Icon,
+  SharePoint: SharePointIcon,
   Slack: SlackIcon,
   Spider: SpiderIcon,
   Streamlit: Streamlit,

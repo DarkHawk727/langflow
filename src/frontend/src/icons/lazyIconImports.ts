@@ -254,6 +254,10 @@ export const lazyIconsMapping = {
     import("@/icons/Share").then((mod) => ({ default: mod.ShareIcon })),
   Share2: () =>
     import("@/icons/Share2").then((mod) => ({ default: mod.Share2Icon })),
+  SharePoint: () =>
+    import("@/icons/SharePoint").then((mod) => ({
+      default: mod.SharePointIcon,
+    })),
   Slack: () =>
     import("@/icons/Slack/SlackIcon").then((mod) => ({ default: mod.default })),
   Spider: () =>
